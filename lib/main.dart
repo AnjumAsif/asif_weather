@@ -11,6 +11,7 @@ class MainApp extends StatelessWidget{
     // TODO: implement build
     return MaterialApp(
       theme: ThemeData.dark(),
+      debugShowCheckedModeBanner: false,
       home: LoadingScreen(),
     );
   }
